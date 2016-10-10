@@ -1,3 +1,20 @@
-p {
-  font-weight: bold;
+/* reset */
+ html, body, ul, li, section, p {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: inherit;
+   font-family: Helvetica sans-serif;
+   text-decoration: none;
+   list-style: none;
+   color: inherit;
+   font-style: normal;
+   font-weight: inherit
+ }
+
+/* clearfix */
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
 }
