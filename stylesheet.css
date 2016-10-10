@@ -31,9 +31,9 @@
 .bg-container {
   position: relative;
   overflow: hidden;
-  top:10%;
+  top:15%;
   width: 100vw;
-  height: 66vh;
+  height: 50vh;
   display: flex;
 }
 
@@ -102,3 +102,5 @@
 }
 
 /* meat */
+.meat > ul > li {
+}
