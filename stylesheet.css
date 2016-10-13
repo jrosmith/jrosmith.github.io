@@ -33,7 +33,7 @@
   overflow: hidden;
   top:15%;
   width: 100vw;
-  height: 50vh;
+  height: 70vh;
   display: flex;
 }
 
@@ -48,7 +48,6 @@
 .info-container {
   z-index: 2;
   position: relative;
-
   resize: vertical;
   margin: 0 auto;
   color: #fff;
