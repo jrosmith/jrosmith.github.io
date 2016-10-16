@@ -20,7 +20,7 @@
   clear: both;
 }
 
-/* centered view */
+/* main view */
 .opening-info {
   height: 100vh;
   margin: 0 auto;
@@ -31,9 +31,9 @@
 .bg-container {
   position: relative;
   overflow: hidden;
-  top:15%;
+  top:10vh;
   width: 100vw;
-  height: 70vh;
+  height: 80vh;
   display: flex;
 }
 
@@ -45,6 +45,7 @@
     height: auto;
     opacity: 0.7;
 }
+
 .info-container {
   z-index: 2;
   position: relative;
