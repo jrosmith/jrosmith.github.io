@@ -1,16 +1,16 @@
 /* reset */
  html, body, ul, li, section, p, a {
-   margin: 0;
-   padding: 0;
-   border: 0;
-   font-size: inherit;
-   font-family: sans-serif;
-   text-decoration: none;
-   list-style: none;
-   color: inherit;
-   font-style: normal;
-   font-weight: inherit;
-   display: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: inherit;
+  font-family: sans-serif;
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+  font-style: normal;
+  font-weight: inherit;
+  display: inherit;
  }
 
 /* clearfix */
@@ -38,12 +38,12 @@
 }
 
 .bg-container img{
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100vw;
-    height: auto;
-    opacity: 0.7;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: auto;
+  opacity: 0.7;
 }
 
 .info-container {
@@ -67,7 +67,7 @@
 }
 
 .info-container h1{
-  font-size: 48px;
+  font-size: 3.5vw;
   margin-bottom: 3vh;
 }
 
@@ -77,13 +77,10 @@
 
 .description-links li {
   float: left;
-  font-size: 18px;
-  padding: 0 15px;
+  font-size: 1vw;
+  margin-right: 0.75vw;
 }
 
-.description-links li:first-child {
-  padding: 0 0px;
-}
 
 .meat-links {
   font-size: 46px;
@@ -91,8 +88,8 @@
 
 .meat-links li {
   float: left;
-  font-size: 36px;
-  padding: 5px 10px;
+  font-size: 2.3vw;
+  padding: 0 1vw;
   border-right: 1px solid white;
 }
 
