@@ -67,7 +67,7 @@
 }
 
 .info-container h1{
-  font-size: 3.5vmax;
+  font-size: 5vmin;
   margin-bottom: 3vh;
 }
 
@@ -77,18 +77,17 @@
 
 .description-links li {
   float: left;
-  font-size: 1vmax;
+  font-size: 1.5vmin;
   margin-right: 0.75vw;
 }
 
 
 .meat-links {
-  font-size: 46px;
+  font-size: 3vmin;
 }
 
 .meat-links li {
   float: left;
-  font-size: 2.3vmax;
   padding: 0 1vw;
   border-right: 1px solid white;
 }
