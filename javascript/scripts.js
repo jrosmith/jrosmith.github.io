@@ -2,16 +2,28 @@ const clearDetail = () => {
   $('.meat-detail').html("");
 };
 
+const contactClick = () => {
+  return(console.log('contact'));
+};
+
+const skillClick = () => {
+  return(console.log('skill'));
+};
+
+const aboutClick = () => {
+  return(console.log('about'));
+};
+
 const appendToDetail = (text) => {
   switch (text) {
     case "Contact":
-      console.log("CONTACT CLICKED");
+      contactClick();
       break;
     case "About":
-      console.log("ABOUT CLICKED");
+      aboutClick();
       break;
     case "Skills":
-      console.log("SKILLS CLICKED");
+      skillClick();
       break;
     default:
       console.log( "ya fucked up" );
