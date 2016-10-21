@@ -1,6 +1,5 @@
-// Can use jquery, come back to this during jobsearch
+const clickHandler = () => {
+  alert("clickHandler working");
+};
 
-$('.showhide').click(() => {
-  $(this).toggleClass('deprecated');
-  $(this).toggleClass('show');
-});
+$('.meat-links').on('click', 'li', clickHandler);
