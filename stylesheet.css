@@ -97,8 +97,11 @@
 
 .meat-links li:hover {
   text-shadow: 0 0 16px black;
+  cursor: pointer;
 }
 
 /* meat */
-.meat > ul > li {
+.meat-detail {
+  margin-top: 1vh;
+  border: 1px solid black;
 }
