@@ -1,20 +1,23 @@
-const clearDetail = () => {
+export const clearDetail = () => {
   $('.meat-detail').html("");
 };
 
-const contactClick = () => {
+export const contactClick = () => {
   return(console.log('contact'));
 };
 
-const skillClick = () => {
+export const skillClick = () => {
   return(console.log('skill'));
 };
 
-const aboutClick = () => {
-  return(console.log('about'));
+export const aboutClick = () => {
+  let about_html = '\
+        <p class="about-meat">\
+          I am web developer with an extensive background in physics, physics education, and physics education reserach. In my spare time, I enjoy spoiling my bluetick coonhound, shooting pool, and playing guitar.\
+          </p>';
 };
 
-const appendToDetail = (text) => {
+export const appendToDetail = (text) => {
   switch (text) {
     case "Contact":
       contactClick();
@@ -30,7 +33,7 @@ const appendToDetail = (text) => {
   }
 };
 
-const toggleShow = ($el) => {
+export const toggleShow = ($el) => {
   $('.show').addClass('hide');
   $('.show').removeClass('show');
 
@@ -39,18 +42,3 @@ const toggleShow = ($el) => {
   clearDetail();
   appendToDetail($el.text());
 };
-
-
-
-document.addEventListener("DOMContentLoaded", () => {
-  const clickHandler = (e) => {
-    let $el = $(e.target);
-
-    if ($el.hasClass("hide")) {
-      toggleShow($el);
-    }
-
-  };
-
-  $('.meat-links').click("li", clickHandler);
-});
