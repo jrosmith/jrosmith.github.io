@@ -95,13 +95,85 @@
   border-right: none;
 }
 
-.meat-links li:hover {
+.hide:hover {
   text-shadow: 0 0 16px black;
   cursor: pointer;
+
+  -webkit-transition: text-shadow 0.5s ease;
+  -moz-transition: text-shadow 0.5s ease;
+  -o-transition: text-shadow 0.5s ease;
+  transition: text-shadow 0.5s ease;
+}
+
+.show {
+  color: rgb(94,94,94);
+  text-shadow: 0 0 16px white;
+  cursor: default;
+
+  -webkit-transition: text-shadow 1.5s ease;
+  -moz-transition: text-shadow 1.5s ease;
+  -o-transition: text-shadow 1.5s ease;
+  transition: text-shadow 1.5s ease;
+
+  -webkit-transition: color 1s ease;
+  -moz-transition: color 1s ease;
+  -o-transition: color 1s ease;
+  transition: color 1s ease;
+}
+
+.show:hover {
+
 }
 
 /* meat */
 .meat-detail {
   margin-top: 5vh;
-  border: 1px solid black;
+}
+
+.about-meat {
+  margin: 0 auto;
+  font-size: 3vmin;
+  text-align: center;
+}
+
+.about-meat p {
+  text-shadow: 0 0 10px black;
+}
+
+.portfolio-meat {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.portfolio-meat li {
+  margin: 0 auto;
+  font-size: 5vmin;
+  margin-bottom: 5vh;
+}
+.portfolio-meat li:hover {
+  text-shadow: 0 0 15px black;
+  -webkit-transition: text-shadow 1s ease;
+  -moz-transition: text-shadow 1s ease;
+  -o-transition: text-shadow 1s ease;
+  transition: text-shadow 1s ease;
+
+}
+
+.devicons {
+  margin: 0 auto;
+  font-size: 6vmin;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  overflow: scroll;
+}
+
+.devicons li {
+  padding: 1vmin 7vmin;
+}
+.devicons li:hover {
+
 }
