@@ -1,20 +1,46 @@
-export const clearDetail = () => {
-  $('.meat-detail').html("");
-};
-
 export const contactClick = () => {
-  return(console.log('contact'));
+  const aboutHtml = '\
+          <ul>\
+            <li></li>\
+            <li></li>\
+            <li><a href=""></a></li>\
+          </ul>';
+
+  $('.meat-detail').append(aboutHtml);
 };
 
 export const skillClick = () => {
-  return(console.log('skill'));
+  const aboutHtml = '\
+          <ul>\
+            <li></li>\
+            <li></li>\
+            <li></li>\
+            <li></li>\
+            <li></li>\
+            <li></li>\
+            <li></li>\
+            <li></li>\
+            <li></li>\
+            <li></li>\
+            <li></li>\
+            <li></li>\
+            <li></li>\
+            </ul>';
+
+  $('.meat-detail').append(aboutHtml);
 };
 
 export const aboutClick = () => {
-  let about_html = '\
-        <p class="about-meat">\
-          I am web developer with an extensive background in physics, physics education, and physics education reserach. In my spare time, I enjoy spoiling my bluetick coonhound, shooting pool, and playing guitar.\
+  const aboutHtml = '\
+          <p class="about-meat">\
+            I am web developer with an extensive background in physics, physics education, and physics education reserach. In my spare time, I enjoy spoiling my bluetick coonhound, shooting pool, and playing guitar.\
           </p>';
+
+  $('.meat-detail').append(aboutHtml);
+};
+
+export const clearDetail = () => {
+  $('.meat-detail').html("");
 };
 
 export const appendToDetail = (text) => {
