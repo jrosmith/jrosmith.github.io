@@ -147,11 +147,13 @@
   flex-wrap: wrap;
   text-align: center;
 }
+
 .portfolio-meat li {
   margin: 0 auto;
   font-size: 5vmin;
   margin-bottom: 5vh;
 }
+
 .portfolio-meat li:hover {
   text-shadow: 0 0 15px black;
   -webkit-transition: text-shadow 1s ease;
@@ -174,6 +176,23 @@
 .devicons li {
   padding: 1vmin 7vmin;
 }
-.devicons li:hover {
 
+.contact-meat {
+  font-size: 7vmin;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.contact-meat li {
+  margin: 0 5vw;
+}
+
+.contact-meat li:hover {
+  text-shadow: 0 0 15px black;
+  -webkit-transition: text-shadow 1s ease;
+  -moz-transition: text-shadow 1s ease;
+  -o-transition: text-shadow 1s ease;
+  transition: text-shadow 1s ease;
 }

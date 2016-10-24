@@ -1,22 +1,21 @@
 const contactClick = () => {
-  console.log("hit contactClick");
   const contactHTML = '\
           <ul class="contact-meat">\
             <li>\
               <a href="https://github.com/jrosmith">\
-                <i className="fa fa-github-square" aria-hidden="true"></i>\
+                <i class="fa fa-github-square" aria-hidden="true"></i>\
               </a>\
             </li>\
             \
             <li>\
               <a href="https://linkedin.com/in/smithjoshr">\
-                <i className="fa fa-linkedin-square" aria-hidden="true"></i>\
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>\
               </a>\
             </li>\
             \
             <li>\
               <a href="mailto:smithjoshr@gmail.com">\
-                <i className="fa fa-envelope" aria-hidden="true"></i>\
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>\
               </a>\
             </li>\
           </ul>';
@@ -25,7 +24,6 @@ const contactClick = () => {
 };
 
 const portfolioClick = () => {
-  console.log("hit portfolioClick");
   const portfolioHTML = '\
           <ul class="portfolio-meat">\
             <li>\
