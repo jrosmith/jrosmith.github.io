@@ -63,7 +63,7 @@ const skillClick = () => {
 const aboutClick = () => {
   const aboutHTML = '\
           <p class="about-meat fade-in">\
-            I am web developer with an extensive background in physics, physics education, and physics education reserach. In my spare time, I enjoy spoiling my bluetick coonhound, shooting pool, and playing guitar.\
+            I am web developer with an extensive background in physics, physics education, and physics education research. In my spare time I enjoy spoiling my bluetick coonhound, shooting pool, and playing guitar.\
           </p>';
 
   $('.meat-detail').append(aboutHTML);
