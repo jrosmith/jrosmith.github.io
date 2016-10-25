@@ -1,19 +1,19 @@
 const contactClick = () => {
   const contactHTML = '\
           <ul class="contact-meat">\
-            <li>\
+            <li class="fade-in one">\
               <a href="https://github.com/jrosmith">\
                 <i class="fa fa-github-square" aria-hidden="true"></i>\
               </a>\
             </li>\
             \
-            <li>\
+            <li class="fade-in two">\
               <a href="https://linkedin.com/in/smithjoshr">\
                 <i class="fa fa-linkedin-square" aria-hidden="true"></i>\
               </a>\
             </li>\
             \
-            <li>\
+            <li class="fade-in three">\
               <a href="mailto:smithjoshr@gmail.com">\
                 <i class="fa fa-envelope-o" aria-hidden="true"></i>\
               </a>\
@@ -26,17 +26,12 @@ const contactClick = () => {
 const portfolioClick = () => {
   const portfolioHTML = '\
           <ul class="portfolio-meat">\
-            <li>\
+            <li class="fade-in one">\
               <a href="https://www.blandcramp.com">\
                 Blandcramp\
               </a>\
             </li>\
-            <li>\
-              <a href="https://www.colorblock.com">\
-                Colorblock\
-              </a>\
-            </li>\
-            <li>\
+            <li class="fade-in two">\
               <a href="https://github.com/jrosmith/FastApp">\
                 FastApp\
               </a>\
@@ -49,17 +44,17 @@ const portfolioClick = () => {
 const skillClick = () => {
   const skillHTML = '\
           <ul class="devicons">\
-            <li><i class="devicon-amazonwebservices-plain-wordmark"></i></li>\
-            <li><i class="devicon-css3-plain-wordmark"></i></li>\
-            <li><i class="devicon-git-plain-wordmark"></i></li>\
-            <li><i class="devicon-heroku-plain-wordmark"></i></li>\
-            <li><i class="devicon-html5-plain-wordmark"></i></li>\
-            <li><i class="devicon-javascript-plain"></i></li>\
-            <li><i class="devicon-jquery-plain"></i></li>\
-            <li><i class="devicon-postgresql-plain-wordmark"></i></li>\
-            <li><i class="devicon-rails-plain-wordmark"></i></li>\
-            <li><i class="devicon-react-original-wordmark"></i></li>\
-            <li><i class="devicon-ruby-plain-wordmark"></i></li>\
+            <li class="fade-in"><i class="devicon-amazonwebservices-plain-wordmark"></i></li>\
+            <li class="fade-in"><i class="devicon-css3-plain-wordmark"></i></li>\
+            <li class="fade-in"><i class="devicon-git-plain-wordmark"></i></li>\
+            <li class="fade-in"><i class="devicon-heroku-plain-wordmark"></i></li>\
+            <li class="fade-in"><i class="devicon-html5-plain-wordmark"></i></li>\
+            <li class="fade-in"><i class="devicon-javascript-plain"></i></li>\
+            <li class="fade-in"><i class="devicon-jquery-plain"></i></li>\
+            <li class="fade-in"><i class="devicon-postgresql-plain-wordmark"></i></li>\
+            <li class="fade-in"><i class="devicon-rails-plain-wordmark"></i></li>\
+            <li class="fade-in"><i class="devicon-react-original-wordmark"></i></li>\
+            <li class="fade-in"><i class="devicon-ruby-plain-wordmark"></i></li>\
           </ul>';
 
   $('.meat-detail').append(skillHTML);
@@ -67,7 +62,7 @@ const skillClick = () => {
 
 const aboutClick = () => {
   const aboutHTML = '\
-          <p class="about-meat">\
+          <p class="about-meat fade-in">\
             I am web developer with an extensive background in physics, physics education, and physics education reserach. In my spare time, I enjoy spoiling my bluetick coonhound, shooting pool, and playing guitar.\
           </p>';
 
@@ -89,7 +84,7 @@ const appendToDetail = (text) => {
     case "Skills":
       skillClick();
       break;
-    case "Portfolio":
+    case "Recent Projects":
       portfolioClick();
       break;
     default:
