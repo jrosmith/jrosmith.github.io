@@ -43,7 +43,7 @@
   top: 0;
   width: 100vw;
   height: auto;
-  opacity: 0.7;
+  opacity: 0.85;
 }
 
 .info-container {
@@ -82,7 +82,7 @@
 }
 
 .meat-links {
-  font-size: 3vmin;
+  font-size: 4vmin;
 }
 
 .meat-links li {
@@ -106,7 +106,7 @@
 }
 
 .show {
-  color: #4e4d4d;
+  color: #2d3a54;
   text-shadow: 0 0 16px white;
   cursor: default;
 
@@ -135,9 +135,8 @@
 }
 
 .about-meat {
-  margin: 0 auto;
-  font-size: 3vmin;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .fade-in {
@@ -157,27 +156,29 @@
 }
 
 .fade-in.one {
-  -webkit-animation-delay: 0.3s;
-  -moz-animation-delay: 0.3s;
-  animation-delay: 0.3s;
+  -webkit-animation-delay: 0.1s;
+  -moz-animation-delay: 0.1s;
+  animation-delay: 0.1s;
 }
 
 .fade-in.two {
-  -webkit-animation-delay: 0.7s;
-  -moz-animation-delay:0.7s;
-  animation-delay: 0.7s;
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-delay:0.3s;
+  animation-delay: 0.3s;
 }
 
 .fade-in.three {
-  -webkit-animation-delay: 1.2s;
-  -moz-animation-delay: 1.2s;
-  animation-delay: 1.2s;
+  -webkit-animation-delay: 0.6s;
+  -moz-animation-delay: 0.6s;
+  animation-delay: 0.6s;
 }
 
-.about-meat p {
+p {
+  margin: 0 auto;
+  font-size: 2vmin;
+  text-align: center;
   text-shadow: 0 0 10px black;
   animation: fadein 2s;
-
 }
 
 

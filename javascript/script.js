@@ -27,7 +27,7 @@ const portfolioClick = () => {
   const portfolioHTML = '\
           <ul class="portfolio-meat">\
             <li class="fade-in one">\
-              <a href="https://www.blandcramp.com">\
+              <a href="https://blandcramp.herokuapp.com">\
                 Blandcramp\
               </a>\
             </li>\
@@ -50,7 +50,7 @@ const skillClick = () => {
             <li class="fade-in"><i class="devicon-heroku-plain-wordmark"></i></li>\
             <li class="fade-in"><i class="devicon-html5-plain-wordmark"></i></li>\
             <li class="fade-in"><i class="devicon-javascript-plain"></i></li>\
-            <li class="fade-in"><i class="devicon-jquery-plain"></i></li>\
+            <li class="fade-in"><i class="devicon-jquery-plain-wordmark"></i></li>\
             <li class="fade-in"><i class="devicon-postgresql-plain-wordmark"></i></li>\
             <li class="fade-in"><i class="devicon-rails-plain-wordmark"></i></li>\
             <li class="fade-in"><i class="devicon-react-original-wordmark"></i></li>\
@@ -61,10 +61,32 @@ const skillClick = () => {
 };
 
 const aboutClick = () => {
-  const aboutHTML = '\
-          <p class="about-meat fade-in">\
-            I am web developer with an extensive background in physics, physics education, and physics education research. In my spare time I enjoy spoiling my bluetick coonhound, shooting pool, and playing guitar.\
-          </p>';
+  // const aboutHTML = '\
+  //         <p class="about-meat fade-in">\
+  //           I am a web developer with experience in Ruby, Rails, JavaScript, and React. A full list of my skills, as well as recent projects, can be found by selecting the correspnding tabs in the nav bar. In addition to web development, I have an extensive background in physics, physics education, and physics education research. In my spare time I enjoy spoiling my bluetick coonhound, shooting pool, and playing guitar.\
+  //         </p>';
+  const aboutHTML = `
+  <section class="about-meat">
+      <p class="fade-in one">
+        I am a web developer with experience in Ruby, Rails,
+        JavaScript, and React. A full list of my skills, as well
+        as recent projects, can be found by selecting the
+        corresponding tabs in the nav bar. Recent projects of mine
+        include BlandCramp, a music sharing app inspired by BandCamp
+        and built on Ruby on Rails with a JS/React front end, and
+        FastApp, a web app framework inspired by Ruby on Rails and
+        Active Record and designed to provide a platform for beginners to learn
+        the basics of building Full-Stack web applications.
+      </p>
+      <br>
+      <p class="fade-in two">
+        In addition to web development, I have an extensive
+        background in physics, physics education, and physics
+        education research. In my spare time I enjoy spoiling my
+        bluetick coonhound, shooting pool, and playing music.
+      </p>
+    </section>`;
+
 
   $('.meat-detail').append(aboutHTML);
 };
