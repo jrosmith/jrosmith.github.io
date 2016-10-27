@@ -104,10 +104,15 @@
 }
 
 .hide {
-  -webkit-transition: text-shadow 0.5s ease;
-  -moz-transition: text-shadow 0.5s ease;
-  -o-transition: text-shadow 0.5s ease;
-  transition: text-shadow 0.5s ease;
+  -webkit-transition: text-shadow 1.5s ease;
+  -moz-transition: text-shadow 1.5s ease;
+  -o-transition: text-shadow 1.5s ease;
+  transition: text-shadow 1.5s ease;
+
+  -webkit-transition: color 0.5s ease-in;
+  -moz-transition: color 0.5s ease-in;
+  -o-transition: color 0.5s ease-in;
+  transition: color 0.5s ease-in;
 }
 .hide:hover {
   text-shadow: 0 0 4px white;
