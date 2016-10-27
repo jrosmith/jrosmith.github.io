@@ -71,8 +71,16 @@
   margin-bottom: 3vh;
 }
 
+.info-container h1:hover {
+  cursor: default;
+}
+
 .description-links {
   text-shadow: 0 0 6px black;
+}
+
+.description-links:hover {
+  cursor: default;
 }
 
 .description-links li {
@@ -95,8 +103,14 @@
   border-right: none;
 }
 
+.hide {
+  -webkit-transition: text-shadow 0.5s ease;
+  -moz-transition: text-shadow 0.5s ease;
+  -o-transition: text-shadow 0.5s ease;
+  transition: text-shadow 0.5s ease;
+}
 .hide:hover {
-  text-shadow: 0 0 16px black;
+  text-shadow: 0 0 4px white;
   cursor: pointer;
 
   -webkit-transition: text-shadow 0.5s ease;
@@ -121,9 +135,6 @@
   transition: color 1s ease;
 }
 
-.show:hover {
-
-}
 
 /* meat */
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
@@ -181,6 +192,10 @@ p {
   animation: fadein 2s;
 }
 
+p:hover {
+  cursor: default;
+}
+
 
 
 .portfolio-meat {
@@ -195,10 +210,15 @@ p {
   margin: 0 auto;
   font-size: 5vmin;
   margin-bottom: 5vh;
+
+  -webkit-transition: text-shadow 1s ease;
+  -moz-transition: text-shadow 1s ease;
+  -o-transition: text-shadow 1s ease;
+  transition: text-shadow 1s ease;
 }
 
 .portfolio-meat li:hover {
-  text-shadow: 0 0 15px black;
+  text-shadow: 0 0 4px white;
   -webkit-transition: text-shadow 1s ease;
   -moz-transition: text-shadow 1s ease;
   -o-transition: text-shadow 1s ease;
@@ -230,10 +250,15 @@ p {
 
 .contact-meat li {
   margin: 0 5vw;
+
+  -webkit-transition: text-shadow 1s ease;
+  -moz-transition: text-shadow 1s ease;
+  -o-transition: text-shadow 1s ease;
+  transition: text-shadow 1s ease;
 }
 
 .contact-meat li:hover {
-  text-shadow: 0 0 15px black;
+  text-shadow: 0 0 4px white;
   -webkit-transition: text-shadow 1s ease;
   -moz-transition: text-shadow 1s ease;
   -o-transition: text-shadow 1s ease;
