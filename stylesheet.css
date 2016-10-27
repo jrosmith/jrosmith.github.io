@@ -61,7 +61,9 @@
 .info-container {
   margin-top: 10vh;
 }
-
+.prof-title {
+  font-weight: bold;
+}
 .info-container h1, .info-container ul{
   margin: 0 auto;
 }
