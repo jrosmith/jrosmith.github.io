@@ -31,7 +31,7 @@
 .bg-container {
   position: relative;
   overflow: hidden;
-  top:15vh;
+  top:15vmin;
   width: 100vw;
   height: 70vh;
   display: flex;
