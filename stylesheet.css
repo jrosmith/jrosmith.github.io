@@ -108,12 +108,8 @@
   -moz-transition: text-shadow 1.5s ease;
   -o-transition: text-shadow 1.5s ease;
   transition: text-shadow 1.5s ease;
-
-  -webkit-transition: color 0.5s ease-in;
-  -moz-transition: color 0.5s ease-in;
-  -o-transition: color 0.5s ease-in;
-  transition: color 0.5s ease-in;
 }
+
 .hide:hover {
   text-shadow: 0 0 4px white;
   cursor: pointer;
@@ -139,7 +135,6 @@
   -o-transition: color 1s ease;
   transition: color 1s ease;
 }
-
 
 /* meat */
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
@@ -200,8 +195,6 @@ p {
 p:hover {
   cursor: default;
 }
-
-
 
 .portfolio-meat {
   margin: 0 auto;
