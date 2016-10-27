@@ -79,6 +79,7 @@
 
 .description-links {
   text-shadow: 0 0 6px black;
+  padding-left: 1vw;
 }
 
 .description-links:hover {
