@@ -61,10 +61,12 @@
 .info-container {
   margin-top: 10vh;
 }
+
 .prof-title {
   font-weight: bold;
   font-size: 100px;
 }
+
 .info-container h1, .info-container ul{
   margin: 0 auto;
 }
@@ -93,6 +95,7 @@
   margin-right: 0.75vw;
 }
 
+/* CLICKABLE LINKS */
 .meat-links {
   font-size: 4vmin;
 }
@@ -112,7 +115,7 @@
   -moz-transition: color 1s ease;
   -o-transition: color 1s ease;
   transition: color 1s ease;
-  
+
   -webkit-transition: text-shadow 1s ease;
   -moz-transition: text-shadow 1s ease;
   -o-transition: text-shadow 1s ease;
@@ -145,19 +148,102 @@
   transition: color 1s ease;
 }
 
-/* meat */
-@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-
 .meat-detail {
   margin-top: 5vh;
 }
 
+/* ABOUT */
 .about-meat {
   display: flex;
   flex-direction: column;
 }
+
+p {
+  margin: 0 auto;
+  font-size: 2vmin;
+  text-align: center;
+  text-shadow: 0 0 10px black;
+  animation: fadein 2s;
+}
+
+p:hover {
+  cursor: default;
+}
+
+/* RECENT PROJECTS */
+.portfolio-meat {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.portfolio-meat li {
+  margin: 0 auto;
+  font-size: 5vmin;
+  margin-bottom: 5vh;
+
+  -webkit-transition: text-shadow 1s ease;
+  -moz-transition: text-shadow 1s ease;
+  -o-transition: text-shadow 1s ease;
+  transition: text-shadow 1s ease;
+}
+
+.portfolio-meat li:hover {
+  text-shadow: 0 0 4px white;
+  -webkit-transition: text-shadow 1s ease;
+  -moz-transition: text-shadow 1s ease;
+  -o-transition: text-shadow 1s ease;
+  transition: text-shadow 1s ease;
+
+}
+
+/* SKILLS */
+.devicons {
+  margin: 0 auto;
+  font-size: 6vmin;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  overflow: scroll;
+}
+
+.devicons li {
+  padding: 1vmin 7vmin;
+}
+
+/* CONTACT */
+.contact-meat {
+  font-size: 7vmin;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.contact-meat li {
+  margin: 0 5vw;
+
+  -webkit-transition: text-shadow 1s ease;
+  -moz-transition: text-shadow 1s ease;
+  -o-transition: text-shadow 1s ease;
+  transition: text-shadow 1s ease;
+}
+
+.contact-meat li:hover {
+  text-shadow: 0 0 4px white;
+  -webkit-transition: text-shadow 1s ease;
+  -moz-transition: text-shadow 1s ease;
+  -o-transition: text-shadow 1s ease;
+  transition: text-shadow 1s ease;
+}
+
+/* TRANSITIONS/ANIMATIONS */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 
 .fade-in {
   opacity:0;
@@ -191,83 +277,4 @@
   -webkit-animation-delay: 0.5s;
   -moz-animation-delay: 0.5s;
   animation-delay: 0.5s;
-}
-
-p {
-  margin: 0 auto;
-  font-size: 2vmin;
-  text-align: center;
-  text-shadow: 0 0 10px black;
-  animation: fadein 2s;
-}
-
-p:hover {
-  cursor: default;
-}
-
-.portfolio-meat {
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;;
-  flex-wrap: wrap;
-  text-align: center;
-}
-
-.portfolio-meat li {
-  margin: 0 auto;
-  font-size: 5vmin;
-  margin-bottom: 5vh;
-
-  -webkit-transition: text-shadow 1s ease;
-  -moz-transition: text-shadow 1s ease;
-  -o-transition: text-shadow 1s ease;
-  transition: text-shadow 1s ease;
-}
-
-.portfolio-meat li:hover {
-  text-shadow: 0 0 4px white;
-  -webkit-transition: text-shadow 1s ease;
-  -moz-transition: text-shadow 1s ease;
-  -o-transition: text-shadow 1s ease;
-  transition: text-shadow 1s ease;
-
-}
-
-.devicons {
-  margin: 0 auto;
-  font-size: 6vmin;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-  overflow: scroll;
-}
-
-.devicons li {
-  padding: 1vmin 7vmin;
-}
-
-.contact-meat {
-  font-size: 7vmin;
-  display: flex;
-  flex-direction: row;
-  margin: 0 auto;
-  justify-content: center;
-}
-
-.contact-meat li {
-  margin: 0 5vw;
-
-  -webkit-transition: text-shadow 1s ease;
-  -moz-transition: text-shadow 1s ease;
-  -o-transition: text-shadow 1s ease;
-  transition: text-shadow 1s ease;
-}
-
-.contact-meat li:hover {
-  text-shadow: 0 0 4px white;
-  -webkit-transition: text-shadow 1s ease;
-  -moz-transition: text-shadow 1s ease;
-  -o-transition: text-shadow 1s ease;
-  transition: text-shadow 1s ease;
 }
