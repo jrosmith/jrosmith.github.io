@@ -1,70 +1,66 @@
 const contactClick = () => {
-  const contactHTML = '\
-          <ul class="contact-meat">\
-            <li class="fade-in one">\
-              <a href="https://github.com/jrosmith">\
-                <i class="fa fa-github-square" aria-hidden="true"></i>\
-              </a>\
-            </li>\
-            \
-            <li class="fade-in two">\
-              <a href="https://linkedin.com/in/smithjoshr">\
-                <i class="fa fa-linkedin-square" aria-hidden="true"></i>\
-              </a>\
-            </li>\
-            \
-            <li class="fade-in three">\
-              <a href="mailto:smithjoshr@gmail.com">\
-                <i class="fa fa-envelope-o" aria-hidden="true"></i>\
-              </a>\
-            </li>\
-          </ul>';
+  const contactHTML = `
+          <ul class="contact-meat">
+            <li class="fade-in one">
+              <a href="https://github.com/jrosmith">
+                <i class="fa fa-github-square" aria-hidden="true"></i>
+              </a>
+            </li>
+
+            <li class="fade-in two">
+              <a href="https://linkedin.com/in/smithjoshr">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+              </a>
+            </li>
+
+            <li class="fade-in three">
+              <a href="mailto:smithjoshr@gmail.com">
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>`;
 
   $('.meat-detail').append(contactHTML);
 };
 
 const portfolioClick = () => {
-  const portfolioHTML = '\
-          <ul class="portfolio-meat">\
-            <li class="fade-in one">\
-              <a href="https://blandcramp.herokuapp.com">\
-                Blandcramp\
-              </a>\
-            </li>\
-            <li class="fade-in two">\
-              <a href="https://github.com/jrosmith/FastApp">\
-                FastApp\
-              </a>\
-            </li>\
-          </ul>';
+  const portfolioHTML = `
+          <ul class="portfolio-meat">
+            <li class="fade-in one">
+              <a href="https://blandcramp.herokuapp.com">
+                Blandcramp
+              </a>
+            </li>
+            <li class="fade-in two">
+              <a href="https://github.com/jrosmith/FastApp">
+                FastApp
+              </a>
+            </li>
+          </ul>`;
 
   $('.meat-detail').append(portfolioHTML);
 };
 
 const skillClick = () => {
-  const skillHTML = '\
-          <ul class="devicons">\
-            <li class="fade-in"><i class="devicon-amazonwebservices-plain-wordmark"></i></li>\
-            <li class="fade-in"><i class="devicon-css3-plain-wordmark"></i></li>\
-            <li class="fade-in"><i class="devicon-git-plain-wordmark"></i></li>\
-            <li class="fade-in"><i class="devicon-heroku-plain-wordmark"></i></li>\
-            <li class="fade-in"><i class="devicon-html5-plain-wordmark"></i></li>\
-            <li class="fade-in"><i class="devicon-javascript-plain"></i></li>\
-            <li class="fade-in"><i class="devicon-jquery-plain-wordmark"></i></li>\
-            <li class="fade-in"><i class="devicon-postgresql-plain-wordmark"></i></li>\
-            <li class="fade-in"><i class="devicon-rails-plain-wordmark"></i></li>\
-            <li class="fade-in"><i class="devicon-react-original-wordmark"></i></li>\
-            <li class="fade-in"><i class="devicon-ruby-plain-wordmark"></i></li>\
-          </ul>';
+  const skillHTML = `
+          <ul class="devicons">
+            <li class="fade-in"><i class="devicon-amazonwebservices-plain-wordmark"></i></li>
+            <li class="fade-in"><i class="devicon-css3-plain-wordmark"></i></li>
+            <li class="fade-in"><i class="devicon-git-plain-wordmark"></i></li>
+            <li class="fade-in"><i class="devicon-heroku-plain-wordmark"></i></li>
+            <li class="fade-in"><i class="devicon-html5-plain-wordmark"></i></li>
+            <li class="fade-in"><i class="devicon-javascript-plain"></i></li>
+            <li class="fade-in"><i class="devicon-jquery-plain-wordmark"></i></li>
+            <li class="fade-in"><i class="devicon-postgresql-plain-wordmark"></i></li>
+            <li class="fade-in"><i class="devicon-rails-plain-wordmark"></i></li>
+            <li class="fade-in"><i class="devicon-react-original-wordmark"></i></li>
+            <li class="fade-in"><i class="devicon-ruby-plain-wordmark"></i></li>
+          </ul>`;
 
   $('.meat-detail').append(skillHTML);
 };
 
 const aboutClick = () => {
-  // const aboutHTML = '\
-  //         <p class="about-meat fade-in">\
-  //           I am a web developer with experience in Ruby, Rails, JavaScript, and React. A full list of my skills, as well as recent projects, can be found by selecting the correspnding tabs in the nav bar. In addition to web development, I have an extensive background in physics, physics education, and physics education research. In my spare time I enjoy spoiling my bluetick coonhound, shooting pool, and playing guitar.\
-  //         </p>';
   const aboutHTML = `
   <section class="about-meat">
       <p class="fade-in one">
