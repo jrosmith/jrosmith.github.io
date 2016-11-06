@@ -43,7 +43,7 @@
   top: 0;
   width: 100vw;
   height: auto;
-  opacity: 0.85;
+  opacity: 0.7;
 }
 
 .info-container {
@@ -98,6 +98,7 @@
 /* CLICKABLE LINKS */
 .meat-links {
   font-size: 4vmin;
+  padding-left: 1.5vw;
 }
 
 .meat-links li {
@@ -133,7 +134,7 @@
 }
 
 .show {
-  color: #2d3a54;
+  color: #5b5b5b;
   text-shadow: 0 0 16px white;
   cursor: default;
 
