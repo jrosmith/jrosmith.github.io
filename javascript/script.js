@@ -23,24 +23,6 @@ const contactClick = () => {
   $('.meat-detail').append(contactHTML);
 };
 
-const portfolioClick = () => {
-  const portfolioHTML = `
-          <ul class="portfolio-meat">
-            <li class="fade-in one">
-              <a href="https://blandcramp.herokuapp.com">
-                Blandcramp
-              </a>
-            </li>
-            <li class="fade-in two">
-              <a href="https://github.com/jrosmith/FastApp">
-                FastApp
-              </a>
-            </li>
-          </ul>`;
-
-  $('.meat-detail').append(portfolioHTML);
-};
-
 const skillClick = () => {
   const skillHTML = `
           <ul class="devicons">
@@ -93,9 +75,6 @@ const appendToDetail = (text) => {
       break;
     case "Skills":
       skillClick();
-      break;
-    case "Recent Projects":
-      portfolioClick();
       break;
     default:
       console.log( "something is fucked" );
