@@ -26,17 +26,22 @@ const contactClick = () => {
 const skillClick = () => {
   const skillHTML = `
           <ul class="devicons">
-            <li class="fade-in"><i class="devicon-amazonwebservices-plain-wordmark"></i></li>
-            <li class="fade-in"><i class="devicon-css3-plain-wordmark"></i></li>
-            <li class="fade-in"><i class="devicon-git-plain-wordmark"></i></li>
-            <li class="fade-in"><i class="devicon-heroku-plain-wordmark"></i></li>
-            <li class="fade-in"><i class="devicon-html5-plain-wordmark"></i></li>
-            <li class="fade-in"><i class="devicon-javascript-plain"></i></li>
-            <li class="fade-in"><i class="devicon-jquery-plain-wordmark"></i></li>
-            <li class="fade-in"><i class="devicon-postgresql-plain-wordmark"></i></li>
-            <li class="fade-in"><i class="devicon-rails-plain-wordmark"></i></li>
-            <li class="fade-in"><i class="devicon-react-original-wordmark"></i></li>
-            <li class="fade-in"><i class="devicon-ruby-plain-wordmark"></i></li>
+          <li class="fade-in"><i class="devicon-html5-plain-wordmark"></i></li>
+          <li class="fade-in"><i class="devicon-css3-plain-wordmark"></i></li>
+          <li class="fade-in"><i class="devicon-react-original-wordmark"></i></li>
+          <li class="fade-in"><i class="devicon-jquery-plain-wordmark"></i></li>
+          <li class="fade-in"><i class="devicon-mocha-plain"></i></li>
+          <li class="fade-in"><i class="devicon-javascript-plain"></i></li>
+          <li class="fade-in"><i class="devicon-nodejs-plain-wordmark"></i></li>
+          <li class="fade-in"><i class="devicon-rails-plain-wordmark"></i></li>
+          <li class="fade-in"><i class="devicon-ruby-plain-wordmark"></i></li>
+          <li class="fade-in"><i class="devicon-go-plain"></i></li>
+          <li class="fade-in"><i class="devicon-git-plain-wordmark"></i></li>
+          <li class="fade-in"><i class="devicon-bitbucket-plain-wordmark"></i></li>
+          <li class="fade-in"><i class="devicon-mongodb-plain-wordmark"></i></li>
+          <li class="fade-in"><i class="devicon-postgresql-plain-wordmark"></i></li>
+          <li class="fade-in"><i class="devicon-heroku-plain-wordmark"></i></li>
+          <li class="fade-in"><i class="devicon-amazonwebservices-plain-wordmark"></i></li>
           </ul>`;
 
   $('.meat-detail').append(skillHTML);
